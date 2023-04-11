@@ -33,6 +33,7 @@ const person2 = new Person('Alice', 'female');
 
 const flat1 = new Flat();
 const flat2 = new Flat();
+
 flat1.addResident(person1);
 flat2.addResident(person2);
 
