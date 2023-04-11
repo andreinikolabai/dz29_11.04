@@ -21,15 +21,15 @@ class House {
     }
     addFlat(flat) {
         if (this.flats.length > this.maxFlats) {
-            console.log('House is full!');
+            console.log('Будинок повний');
         } else {
             this.flats.push(flat);
         }
     }
 }
 
-const person1 = new Person('John', 'male');
-const person2 = new Person('Alice', 'female');
+const person1 = new Person('Іван', 'чоловік');
+const person2 = new Person('Аліса', 'жінка');
 
 const flat1 = new Flat();
 const flat2 = new Flat();
